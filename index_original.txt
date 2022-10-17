@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Fan Wang</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!--link rel='shortcut icon' type='image/x-icon' href='favicon.ico' /-->
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Fan Wang
+                </h2>
+                <h4>
+                    Ph.D Candidate, Stony Brook University
+                </h4>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span>Home</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span>Projects</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span>Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="fan.png" alt="Sunny Luthra">
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    Fan Wang
+                                </h4>
+                                <h5>
+                                    Ph.D Candidate
+                                </h5>
+                                <p>
+                                    I am a Ph.D candidate from computer science department of Stony Brook University. My research interests include content generation, 3D reconstruction.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="CV.Fan_Wang.pdf">My CV</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:fan.gordon.wang@gmail.com">fan.gordon.wang@gmail.com</a></h3-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="https://github.com/seravee08">My GitHub</a></h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="https://www.linkedin.com/in/fan-wang-bb71a75a/">My Linkedin</a></h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g3">
+                            <ul class="no-list work">
+                              <li>
+                                     <h14>TopoGAN: A Topology-Aware Generative Adversarial Network</h14>
+                                     <span class="label label-info">2019-2020</span>
+                                     <p>Fan Wang, Huidong Liu, Dimitris Samaras and Chao Chen
+                                     <br>European Conference on Computer Vision (ECCV), 2020, (Oral, acceptance rate 2.1%)</p>
+                                     <img src="./images/TopoGAN.png" alt="CODE">
+                                    <p>
+                                       Most existing generative adversarial networks (GANs) focus on generating realistic images with regard to CNN-based image features,
+                                       but fail to preserve the structural properties of real images. This can be fatal in applications where the underlying structure (e.g.,
+                                       neurons, vessels, membranes, road networks) of the image carries crucial semantic meaning. In this paper, we propose a novel GAN model
+                                       that learns the topology of the real images, i.e., connectedness and loopy-ness. In particular, we introduce a new loss that bridges
+                                       the gap between synthetic image distribution and real image distribution in the topological feature space. By optimizing this loss,
+                                       the generator produces images with the same structural topology as real images. We also propose new GAN evaluation metrics that measure
+                                       the topological realism of the synthetic images. We show in experiments that our method generates synthetic images with realistic
+                                       topology. We also highlight the increased performance that our method brings to downstream tasks such as segmentation.
+                                    </p>
+                                    <div class="contact-info">
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://seravee08.github.io/TopoGAN-ECCV2020/">Project page</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://github.com/seravee08/TopoGAN-ECCV2020">Download Source</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://boole.cs.qc.cuny.edu/cchen/publications/TopoGAN.pdf">Paper</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://boole.cs.qc.cuny.edu/cchen/publications/TopoGAN_suppl.pdf">Supplemental Material</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="break"></div>
+                                </li>
+                              
+                              
+                                <li>
+                                    <h14>Hierarchical Image Link Selection Scheme for Duplicate Structure Disambiguation</h14>
+                                     <span class="label label-info">2017-2018</span>
+                                     <p>Fan Wang, Aditi Nayak, Yogesh Agrawal and Roy Shilkrot
+                                     <br>British Machine Vision Conference (BMVC), 2018</p>
+                                     <img src="./images/Disambi_pic.png" alt="CODE">
+                                    <p>
+                                       Repetitive and duplicate structures in urban areas have been a persistent problem in
+                                        structure from motion (SfM). The resulting non-existent epipolar geometries (EGs) can
+                                        significantly bias and complicate averaging algorithms and lead to incorrect camera positions
+                                        and structures in 3D reconstructions. We propose a lightweight pre-processing
+                                        link selection scheme that produces an error-free camera trace which is used as direct
+                                        inputs to a SfM pipeline. Images from local areas often share strong visual resemblance,
+                                        however, correct view links bridging duplicate components are buried among many false
+                                        links. The proposed scheme allows for independent expansions of local areas through
+                                        a bottom up iterative grouping algorithm that exploits local resemblance. Independent
+                                        components are then merged through links contributing to a global structure expansion
+                                        selected by small scale reconstructions at joint positions. We demonstrate the effectiveness
+                                        of our method on multiple laboratory and Internet-based image sets.
+                                    </p>
+                                    <div class="contact-info">
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://seravee08.github.io/TopoGAN-ECCV2020/">Project page</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://github.com/seravee08/Hierarchical-Link-Selection-for-Disambiguation-">Download Source</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="http://www.bmva.org/bmvc/2018/contents/papers/0718.pdf">Paper</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="break"></div>
+                                </li>
+                              
+                                <li>
+                                    <h14>CODE: Coherence Based Decision Boundaries for Feature Correspondence</h14>
+                                     <span class="label label-info">2015-2016</span>
+                                     <p>Wen-Yan Lin, Fan Wang, Min-Ming Cheng, Sai-Kit Yeung, Philip H.S. Torr, Minh N. Do, Jiangbo Lu
+                                     <br>Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017</p>
+                                     <img src="./images/CODE_pic.png" alt="CODE">
+                                    <p>
+                                      A key challenge in feature correspondence is the difficulty in differentiating true and false matches at
+                                      a local descriptor level. This forces adoption of strict similarity thresholds that discard many true matches.
+                                      However, if analysed at a global level, false matches are usually randomly scattered while true matches tend
+                                      to be coherent (clustered around a few dominant motions), thus creating a coherence based separability constraint.
+                                      This paper proposes a non-linear regression technique that can discover such a coherence based separability
+                                      constraint from highly noisy matches and embed it into a correspondence likelihood model. Once computed, the
+                                      model can filter the entire set of nearest neighbour matches (which typically contains over 90% false matches)
+                                      for true matches. We integrate our technique into a full feature correspondence system which reliably generates
+                                      large numbers of good quality correspondences over wide baselines where previous techniques provide few or no matches.
+                                    </p>
+                                    <div class="contact-info">
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="http://www.kind-of-works.com/CODE_matching.html">Project page</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="https://github.com/seravee08/WideBaselineFeatureMatcher_PAMI">Download Source</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="http://www.kind-of-works.com/papers/code_matching.pdf">Paper</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="g1">
+                                        <div class="item-box clearfix">
+                                          <i class="icon-"></i>
+                                          <div class="item-data">
+                                            <h3><a href="http://www.kind-of-works.com/WANGFAN_site_data/GPU-ASIFT.html">GPU A-SIFT</a></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="break"></div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Address</h4>
+                              <p>100 Nicolls Road, Stony Brook, NY 11794</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Phone Number</h4>
+                              <p>(631) 559-08XX<br/>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>About Me</h4>
+                              <p>I am a Ph.D candidate from computer science department of Stony Brook University. I am actively seeking intership opportunities preferably based in North America.
+                                 My research interest include content generation, 3D reconstruction, and biomedical image analysis.</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+
+
+</body>
+</html>
